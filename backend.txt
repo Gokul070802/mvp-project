@@ -1,0 +1,12 @@
+Server Details
+Port: 8081 (HTTP)
+Status: Started in 6.5 seconds
+Database: Connected to MySQL
+Admin User: Already initialized (admin@mvp.com / Admin@123456)
+📍 Access Points
+API Base URL:
+
+🔑 Default Credentials
+Email: admin@mvp.com
+Password: Admin@123456
+Role: ROLE_ADMIN
