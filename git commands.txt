@@ -1,0 +1,8 @@
+git init
+git config user.name "Gokul070802"
+git config user.email "Gokul070802@users.noreply.github.com"
+git remote add origin https://github.com/Gokul070802/mvp-project.git
+git add .
+git commit -m "Your commit message"
+git branch -M main
+git push -u origin main
