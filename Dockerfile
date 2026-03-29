@@ -4,11 +4,11 @@ WORKDIR /app
 
 COPY . .
 
-# 🔥 FIX: give permission to mvnw
+# 🔥 FIX: give execute permission
 RUN chmod +x mvnw
 
-# Build the project
+# Build project
 RUN ./mvnw clean install -DskipTests
 
-# Run the app
+# Run app
 CMD ["java", "-jar", "target/mvp-backend-0.0.1-SNAPSHOT.jar"]
