@@ -4,7 +4,10 @@ WORKDIR /app
 
 COPY . .
 
-# 🔥 FIX: give execute permission
+# 🔥 Move into backend folder
+WORKDIR /app/backend
+
+# Give permission
 RUN chmod +x mvnw
 
 # Build project
