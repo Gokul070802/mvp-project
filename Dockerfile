@@ -1,12 +1,10 @@
 FROM eclipse-temurin:17-jdk
 
-# Set working directory
 WORKDIR /app
 
-# Copy ONLY backend folder
-COPY backend/ /app
+COPY . .
 
-# Give permission
+# Fix permission
 RUN chmod +x mvnw
 
 # Build project
